@@ -15,7 +15,6 @@
         android:layout_margin="@android:dimen/app_icon_size"
         android:background="@android:color/holo_red_dark"
         android:layerType="none"
-        android:onClick="clickbtn"
         android:padding="23sp"
         android:text="SOS"
         android:textSize="36sp"
@@ -42,5 +41,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="location"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
